@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css">
     <title>Website Clone</title>
 </head>
 <body>
@@ -16,9 +18,24 @@
         </div>
         <ul class="nav-links">
             <li><a href="javascript:void(0)">Home</a></li>
-            <li><a href="javascript:void(0)">Investment</a></li>
+            <li class="dropdown">
+                <a  href="javascript:void(0)">Investment</a>
+                <ul class="dropdown-content">
+                    <li><a href="javascript:void(0)">Motilal Oswal Securities</a></li>
+                    <li><a href="javascript:void(0)">Mutual Funds</a></li>
+                    <li><a href="javascript:void(0)">Insurance</a></li>
+                    <li><a href="javascript:void(0)">Goverment Bonds</a></li>
+                    <li><a href="javascript:void(0)">Corporate FD</a></li>
+                </ul>
+            </li>
             <li><a href="javascript:void(0)">Loan Service</a></li>
-            <li><a href="javascript:void(0)">Real Estate</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)">Real Estate</a>
+                <ul class="dropdown-content">
+                    <li><a href="javascript:void(0)">Real Estate Consultancy</a></li>
+                    <li><a href="javascript:void(0)">Interior designing</a></li>
+                </ul>
+            </li>
             <li><a href="javascript:void(0)">Other Services</a></li>
             <li><a href="javascript:void(0)">About Us</a></li>
             <li><a href="javascript:void(0)">Contact Us</a></li>
@@ -30,5 +47,20 @@
             <div class="line3"></div>
         </div>
     </nav>
+
+    <div class="owl-carousel owl-theme">
+        <div class="item"><img src="./images/pic1.jpg" alt=""></div>
+        <div class="item"><img src="./images/pic2.jpg" alt=""></div>
+        <div class="item"><img src="./images/pic3.jpg" alt=""></div>
+        <div class="item"><img src="./images/pic4.jpg" alt=""></div>
+        <div class="item"><img src="./images/pic5.jpg" alt=""></div>
+    </div>
+
+    <!-- script links -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./js/owl.carousel.min.js"></script>
+    <script type="text/javascript" type="text/javascript" src="./js/script.js"></script>    
+    
+
 </body>
 </html>
