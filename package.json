@@ -1,0 +1,22 @@
+{
+  "name": "website-clone",
+  "version": "1.0.0",
+  "description": "This is a website clone of https://novasant.in/ to practice my website designing skills.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevoAbhi/Website-Clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevoAbhi/Website-Clone/issues"
+  },
+  "homepage": "https://github.com/DevoAbhi/Website-Clone#readme",
+  "dependencies": {
+    "aos": "^2.3.4"
+  }
+}
