@@ -31,6 +31,7 @@ const navSlider = () => {
 
     burger.addEventListener('click', () => {
         // Toggle nav class
+        nav.style.display = 'flex'
         nav.classList.toggle('nav-active');
 
         // Toggle animation
