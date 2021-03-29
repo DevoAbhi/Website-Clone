@@ -3,6 +3,13 @@ $(document).ready(function() {
         loop:true,
         margin:10,
         nav:true,
+        touchDrag: true,
+        mouseDrag: true,
+        slideTransition:'ease-in',
+        autoplay: true,
+        autoplayHoverPause: true,
+        autoplaySpeed: 1000,
+        navSpeed: 700,
         responsive:{
             0:{
                 items:1
